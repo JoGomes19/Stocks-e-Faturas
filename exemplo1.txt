@@ -1,0 +1,23 @@
+STOCK
+a1 - "fraldas" - 5 - 100 ;
+a2 - "arrroz" - 4- 150 ;
+a3 - "bananas" - 2- 15 ;
+a4 - "Batatas" - 4- 15 ;
+a5 - "Pao" - 4- 15 ;
+a6 - "Manteiga" - 4- 15 ;
+a7 - "Leite" - 4- 15 ;
+a8 - "Iogurte" - 69- 78 ;
+a9 - "Vinho" - 4- 15 ;
+a10 - "facas" - 4- 15 ;
+a11 - "garfos" - 4- 15 
+
+FATURA 
+a "luis" "Braga" NIF: "A123342" NIB: "389SA12" CLIENTE "joao" "Braga" NIF: "12344"
+VENDAS 
+a1 | 10 .
+a3 | 1 .
+a5 | 17 .
+a23 | 8 .
+
+
+

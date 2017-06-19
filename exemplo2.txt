@@ -1,0 +1,37 @@
+STOCK
+a1 - "fraldas" - 5 - 100 ;
+a2 - "arroz" - 4- 150 ;
+a3 - "bananas" - 2- 150 ;
+a4 - "Batatas" - 4- 150 ;
+a5 - "Pao" - 4- 200 ;
+a6 - "Manteiga" - 4- 150 ;
+a7 - "Leite" - 4- 1500 ;
+a8 - "Iogurte" - 4- 200 ;
+a9 - "Vinho" - 4- 150 ;
+a10 - "facas" - 4- 100 ;
+a11 - "garfos" - 4- 15 
+
+FATURA 
+a1 "Continente" "Braga" NIF: "A123772" NIB: "389SA12" CLIENTE "Luis" "Braga" NIF: "12344"
+VENDAS 
+a1 | 10 .
+a3 | 20 .
+a5 | 15 .
+a8 | 8 .
+
+FATURA 
+a2 "BragaParque" "Braga" NIF: "A223342" NIB: "389SA12" CLIENTE "Antonio" "Porto" NIF: "12344"
+VENDAS 
+a1 | 10 .
+a3 | 20 .
+a5 | 15 .
+a8 | 8 .
+
+FATURA 
+a3 "MinhoCenter" "Braga" NIF: "A663342" NIB: "389SA12" CLIENTE "Miguel" "Braga" NIF: "12344"
+VENDAS 
+a1 | 10 .
+a22 | 20 .
+a5 | 15 .
+a8 | 8 .
+

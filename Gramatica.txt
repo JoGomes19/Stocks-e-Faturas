@@ -1,0 +1,26 @@
+T = { id, str, num, STOCK, FATURA, VENDAS, NIF:, NIB:, ’.’, ’;’, ’-’, ’|’}
+N = { Vendas, Stock, Entrada, Faturas, Fatura, Cabec, Corpo, IdFact, IdForn, IdClie, ...... }
+S = Vendas
+P = { Vendas --> ´STOCK’ Stock Faturas
+Stock --> Entrada
+| Stock ´;´ Entrada
+Entrada --> RefProd ´-´ Desc ’-’ ValUnit ’-’ Quant
+Faturas --> Fatura
+| Faturas Fatura
+Fatura --> ’FATURA´ Cabec ’VENDAS’ Corpo
+Cabec --> IdFat IdForn ´CLIENTE’ IdClie
+IdFat --> id
+IdForn --> Nome Morada ’NIF:’ NIF ’NIB:’ NIB
+IdClie --> Nome Morada ’NIF:’ NIF
+Nome --> str
+NIF --> str
+Morada --> str
+NIB --> str
+Corpo --> Linha ’.’
+| Corpo Linha ’.’
+Linha --> RefProd ´|´ Quant
+RefProd --> id
+Desc --> str
+ValUnit --> num
+Quant --> num
+}
